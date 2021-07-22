@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import BigTrees from "../components/photos/bigtrees"
+import Bridge from "../components/photos/bridge"
 import Road from "../components/photos/road"
 import SEO from "../components/seo"
 import styled from "styled-components"
@@ -21,8 +21,8 @@ const ConnectPage = () => (
       Connect with Us!
     </H1>
 
-    <BigTrees />
-    <p style={{ textAlign: 'right' }}><a style={{ color: 'gray' }} href="https://www.instagram.com/wandering.camera.guy/" target="_blank" rel="noopener noreferrer">@wandering.camera.guy</a></p>
+    <p style={{ textAlign: 'center', marginBottom: -10 }}><Bridge /></p>
+    <p style={{ textAlign: 'right', marginRight: 150 }}><a style={{ color: 'gray' }} href="https://www.instagram.com/wandering.camera.guy/" target="_blank" rel="noopener noreferrer">@wandering.camera.guy</a></p>
 
     <h3>Let’s do what we can to change the world for good and let’s start with ourselves.</h3>
     <p>Please let us know how we may best work together to make a positive and impactful difference as you and your team become the leaders you were meant to be!</p>
