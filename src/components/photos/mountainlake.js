@@ -18,15 +18,15 @@ const MountainLake = () => {
     query {
       placeholderImage: file(relativePath: { eq: "mountain_lake.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 1000) {
-            ...GatsbyImageSharpFluid
+          fixed(width: 750) {
+            ...GatsbyImageSharpFixed
           }
         }
       }
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img fixed={data.placeholderImage.childImageSharp.fixed} />
 }
 
 export default MountainLake

@@ -22,8 +22,8 @@ const AboutPage = () => (
       The Story of Avail
     </H1>
 
-    <FarBoats />
-    <p style={{ textAlign: 'right' }}><a style={{ color: 'gray' }} href="https://www.instagram.com/wandering.camera.guy/" target="_blank" rel="noopener noreferrer">@wandering.camera.guy</a></p>
+    <p style={{ textAlign: 'center', marginBottom: -10 }}><FarBoats /></p>
+    <p style={{ textAlign: 'right', marginRight: 150 }}><a style={{ color: 'gray' }} href="https://www.instagram.com/wandering.camera.guy/" target="_blank" rel="noopener noreferrer">@wandering.camera.guy</a></p>
 
     <h2>Meet Lori</h2>
     <div style={{ maxWidth: `500px`, marginBottom: `1.45rem` }}>

@@ -21,13 +21,12 @@ const IndexPage = () => (
       Developing Admirable Leaders &amp; Exceptional Teams!
     </H1>
     
-    <MountainLake />
-    <p style={{ textAlign: 'right' }}><a style={{ color: 'gray' }} href="https://www.instagram.com/wandering.camera.guy/" target="_blank" rel="noopener noreferrer">@wandering.camera.guy</a></p>
+    <p style={{ textAlign: 'center', marginBottom: -10 }}><MountainLake /></p>
+    <p style={{ textAlign: 'right', marginRight: 150 }}><a style={{ color: 'gray' }} href="https://www.instagram.com/wandering.camera.guy/" target="_blank" rel="noopener noreferrer">@wandering.camera.guy</a></p>
     
-    <p>Avail Consulting’s purpose is to inspire, engage, and motivate people to be the impactful leaders they were meant to be.  We are driven with purpose for developing valuable leaders, effective teams, and engaged employees, thus cultivating a strong and supportive corporate culture.  We believe that people are our greatest assets.  Our mission is to properly assess, reveal insights, and inspire action to help people and organizations achieve their goals in the most impactful way possible!</p>
+    <h3>Get started <b>today</b> to become the impactful leader you were meant to be! <a href ="http://www.availconsulting.net/connect/">Let’s connect!</a></h3>
 
-    <br/>
-    <h3>Get started <b>today</b> to become the impactful leader you were meant to be! Let’s connect!</h3>
+    <p>Avail Consulting’s purpose is to inspire, engage, and motivate people to be the impactful leaders they were meant to be.  We are driven with purpose for developing valuable leaders, effective teams, and engaged employees, thus cultivating a strong and supportive corporate culture.  We believe that people are our greatest assets.  Our mission is to properly assess, reveal insights, and inspire action to help people and organizations achieve their goals in the most impactful way possible!</p>
 
     <LongTrees />
     <p style={{ textAlign: 'right' }}><a style={{ color: 'gray' }} href="https://www.instagram.com/wandering.camera.guy/" target="_blank" rel="noopener noreferrer">@wandering.camera.guy</a></p>
