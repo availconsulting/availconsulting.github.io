@@ -85,7 +85,7 @@ const AboutPage = () => (
 
     <h2>Academy Leadership</h2>
 
-    <p><a href="https://academyleadership.com" target="_blank" rel="noopener noreferrer">Learn more about Academy Leadership</a></p>
+    <p><a href="https://academyleadership.com/tompos/" target="_blank" rel="noopener noreferrer">Learn more about Academy Leadership</a></p>
   </Layout>
 )
 
