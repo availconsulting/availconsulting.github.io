@@ -18,15 +18,16 @@ const Road = () => {
     query {
       placeholderImage: file(relativePath: { eq: "road.png" }) {
         childImageSharp {
-          fixed(width: 600) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth: 1000) {
+            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluidLimitPresentationSize
           }
         }
       }
     }
   `)
 
-  return <Img fixed={data.placeholderImage.childImageSharp.fixed} />
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
 export default Road

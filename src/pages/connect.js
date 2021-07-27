@@ -21,8 +21,8 @@ const ConnectPage = () => (
       Connect with Us!
     </H1>
 
-    <p style={{ textAlign: 'center', marginBottom: -10 }}><Bridge /></p>
-    <p style={{ textAlign: 'right', marginRight: 150 }}><a style={{ color: 'gray' }} href="https://www.instagram.com/wandering.camera.guy/" target="_blank" rel="noopener noreferrer">@wandering.camera.guy</a></p>
+    <div style={{ marginLeft: '12.5%', marginRight: '12.5%' }}><Bridge /></div>
+    <p style={{ textAlign: 'right', marginLeft: '12.5%', marginRight: '12.5%' }}><a style={{ color: 'gray' }} href="https://www.instagram.com/wandering.camera.guy/" target="_blank" rel="noopener noreferrer">@wandering.camera.guy</a></p>
 
     <h3>Let’s do what we can to change the world for good and let’s start with ourselves.</h3>
     <p>Please let us know how we may best work together to make a positive and impactful difference as you and your team become the leaders you were meant to be!</p>

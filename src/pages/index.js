@@ -21,8 +21,8 @@ const IndexPage = () => (
       Developing Admirable Leaders &amp; Exceptional Teams!
     </H1>
     
-    <p style={{ textAlign: 'center', marginBottom: -10 }}><MountainLake /></p>
-    <p style={{ textAlign: 'right', marginRight: 150 }}><a style={{ color: 'gray' }} href="https://www.instagram.com/wandering.camera.guy/" target="_blank" rel="noopener noreferrer">@wandering.camera.guy</a></p>
+    <div style={{ marginLeft: '12.5%', marginRight: '12.5%' }}><MountainLake /></div>
+    <p style={{ textAlign: 'right', marginLeft: '12.5%', marginRight: '12.5%' }}><a style={{ color: 'gray' }} href="https://www.instagram.com/wandering.camera.guy/" target="_blank" rel="noopener noreferrer">@wandering.camera.guy</a></p>
     
     <h3>Get started <b>today</b> to become the impactful leader you were meant to be! <a href ="http://www.availconsulting.net/connect/">Let’s connect!</a></h3>
 

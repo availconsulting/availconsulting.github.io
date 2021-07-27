@@ -18,15 +18,16 @@ const Safari = () => {
     query {
       placeholderImage: file(relativePath: { eq: "safari.png" }) {
         childImageSharp {
-          fixed(width: 500) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth: 500) {
+            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluidLimitPresentationSize
           }
         }
       }
     }
   `)
 
-  return <Img fixed={data.placeholderImage.childImageSharp.fixed} />
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
 export default Safari

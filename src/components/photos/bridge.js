@@ -18,15 +18,16 @@ const Bridge = () => {
     query {
       placeholderImage: file(relativePath: { eq: "bridge.jpg" }) {
         childImageSharp {
-          fixed(width: 750) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth: 750) {
+            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluidLimitPresentationSize
           }
         }
       }
     }
   `)
 
-  return <Img fixed={data.placeholderImage.childImageSharp.fixed} />
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
 export default Bridge

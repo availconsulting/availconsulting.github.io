@@ -27,10 +27,10 @@ const ResourcesPage = () => (
       Our Expertise
     </H1>
 
-    <p style={{ textAlign: 'center', marginBottom: -10 }}><BigTrees /></p>
-    <p style={{ textAlign: 'right', marginRight: 150 }}><a style={{ color: 'gray' }} href="https://www.instagram.com/wandering.camera.guy/" target="_blank" rel="noopener noreferrer">@wandering.camera.guy</a></p>
+    <div style={{ marginLeft: '12.5%', marginRight: '12.5%' }}><BigTrees /></div>
+    <p style={{ textAlign: 'right', marginLeft: '12.5%', marginRight: '12.5%' }}><a style={{ color: 'gray' }} href="https://www.instagram.com/wandering.camera.guy/" target="_blank" rel="noopener noreferrer">@wandering.camera.guy</a></p>
 
-    <h2>CEO Articles</h2>
+    <h2>Leadership Articles</h2>
     <table>
       <tr>
         <td>
@@ -45,7 +45,7 @@ const ResourcesPage = () => (
             </p>
           </p>
         </td>
-        <td style={{ textAlign: 'right'}} >
+        <td>
           <Safari />
           <p style={{ textAlign: 'right' }}><a style={{ color: 'gray' }} href="https://www.instagram.com/wandering.camera.guy/" target="_blank" rel="noopener noreferrer">@wandering.camera.guy</a></p>
         </td>
@@ -55,12 +55,12 @@ const ResourcesPage = () => (
     <h2>Literary Contributions</h2>
     <table>
       <tr>
-        <td style={{ textAlign: 'right'}} >
+        <td>
           <TakeYourTurn />
         </td>
         <td>
         <p>
-          <i>"I always get asked the question: 'Are leaders born or made?' I always say 'Yes'. Leaders are born and made, through hard work, perseverance, personal development, and opportunity. You may have been granted some gifts in terms of leadership abilities, but you want to hone, cultivate, and curate them - so you are the best leader that you can be."</i>
+          <i>"I often get asked the question: 'Are leaders born or made?' I always say 'Yes'. Leaders are born and made, through hard work, perseverance, personal development, and opportunity. You may have been granted some gifts in terms of leadership abilities, but you want to hone, cultivate, and curate them - so you are the best leader that you can be."</i>
           <br/>
           <p>
             <i><a href="https://www.amazon.com/Take-Your-Turn-Leadership-Success/dp/1513676970/ref=sr_1_1?dchild=1&keywords=take+your+turn&qid=1620343816&sr=8-1" target="_blank" rel="noopener noreferrer">Take Your Turn! A Leadership Guide to Success for Young Women</a></i>

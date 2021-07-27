@@ -23,8 +23,8 @@ const ProgramsPage = () => (
       Our Offerings
     </H1>
 
-    <p style={{ textAlign: 'center', marginBottom: -10 }}><CloseBoats /></p>
-    <p style={{ textAlign: 'right', marginRight: 150 }}><a style={{ color: 'gray' }} href="https://www.instagram.com/wandering.camera.guy/" target="_blank" rel="noopener noreferrer">@wandering.camera.guy</a></p>
+    <div style={{ marginLeft: '12.5%', marginRight: '12.5%' }}><CloseBoats /></div>
+    <p style={{ textAlign: 'right', marginLeft: '12.5%', marginRight: '12.5%' }}><a style={{ color: 'gray' }} href="https://www.instagram.com/wandering.camera.guy/" target="_blank" rel="noopener noreferrer">@wandering.camera.guy</a></p>
 
     <h2>What We Do &amp; How</h2>
 

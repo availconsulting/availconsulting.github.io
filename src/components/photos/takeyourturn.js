@@ -18,7 +18,7 @@ const TakeYourTurn = () => {
     query {
       placeholderImage: file(relativePath: { eq: "take_your_turn.png" }) {
         childImageSharp {
-          fixed(width: 175) {
+          fixed(width: 100) {
             ...GatsbyImageSharpFixed
           }
         }
